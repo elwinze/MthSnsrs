@@ -42,6 +42,25 @@
                     </value>
                   </block>
                 </value>
+                <next>
+                  <block type="oled_setcursor" id="13" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="14">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="15">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_drawtext" id="12">
+                        <field name="TEXT">Yay</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
