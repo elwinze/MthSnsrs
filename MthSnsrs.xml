@@ -197,8 +197,12 @@
                                                                                       </block>
                                                                                     </value>
                                                                                     <next>
-                                                                                      <block type="oled_drawtext" id="91">
-                                                                                        <field name="TEXT">Yay</field>
+                                                                                      <block type="oled_cleardisplay" id="92">
+                                                                                        <next>
+                                                                                          <block type="oled_drawtext" id="91">
+                                                                                            <field name="TEXT">Yay</field>
+                                                                                          </block>
+                                                                                        </next>
                                                                                       </block>
                                                                                     </next>
                                                                                   </block>
